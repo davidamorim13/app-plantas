@@ -1,20 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import images from './src/images/image';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={styles.conteiner}>
+      <Text style={styles.title}> Gerencie {"\n"} suas plantas {"\n"} de  forma fácil </Text>
+      <Image source={images.home} />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
+const styles = StyleSheet.create ({
+  conteiner: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
-});
+  title: {
+    fontSize: 32,
+  }
+})
