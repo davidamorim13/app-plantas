@@ -21,7 +21,8 @@ const styles = StyleSheet.create ({
     fontSize: 32,
   },
   image: {
-    width: 100,
+    width: "80%",
+    height: 300,
   }
 
 
