@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.conteiner}>
       <Text style={styles.title}> Gerencie {"\n"} suas plantas {"\n"} de  forma fácil </Text>
-      <Image source={images.home} />
+      <Image style={styles.image} source={images.home} resizeMethod='resize' resizeMode='cover' />
     </View>
   );
 }
@@ -19,5 +19,10 @@ const styles = StyleSheet.create ({
   },
   title: {
     fontSize: 32,
+  },
+  image: {
+    width: 100,
   }
+
+
 })
