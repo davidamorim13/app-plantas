@@ -1,14 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import images from '../../images/image';
+import { useNavigation } from '@react-navigation/native';
 
 export default function Home() {
+
+  const navigation=useNavigation<any>(); 
+
   return (
     <View style={styles.conteiner}>
       <Text style={styles.title}> Gerencie {"\n"} suas plantas {"\n"} de  forma fácil </Text>
       <Image style={styles.image} source={images.home} resizeMethod='resize' resizeMode='cover' />
       <Text style={styles.subtitle}>Não esqueça mais de regar suas {"\n"} plantas. Nós cuidamos de lembrar você {"\n"} sempre que precisar.</Text>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Plants")}>
         <Text style={styles.subtitlebutton}> {"\>"} </Text>
       </TouchableOpacity>
     </View>
