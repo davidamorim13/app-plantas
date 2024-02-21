@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView, FlatList } from 'react-native';
+import images from "../../images/image"
 
 export default function Plants() {
     return (
@@ -43,7 +44,7 @@ export default function Plants() {
               </TouchableOpacity>
             )}
             data={[
-              {id: 1, name:"Imbé", image:"Imbé"},
+              {id: 1, name:"Imbé", image: images.mangericao},
               {id: 2, name:"Peperomia", image:"Peperomia"},
               {id: 3, name:"Aningapara", image:"Aningapara"},
               {id: 4, name:"Yucca", image:"Yucca"},

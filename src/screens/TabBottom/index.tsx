@@ -17,7 +17,7 @@ export default function TabBottom () {
                 }
                 if(route.name === "Plants")
                     iconName="leaf-outline"
-              return <Ionicons name={iconName} size={24}/>
+              return <Ionicons name={iconName} size={24} color={"green"}/>
             },
           })}>
             <Tab.Screen name="NewPlant" component={NewPlant}/>
