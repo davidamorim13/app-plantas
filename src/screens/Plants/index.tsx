@@ -44,7 +44,7 @@ export default function Plants() {
               </TouchableOpacity>
             )}
             data={[
-              {id: 1, name:"Imbé", image: images.mangericao},
+              {id: 1, name:"Imbé", image: images.Imbe},
               {id: 2, name:"Peperomia", image:"Peperomia"},
               {id: 3, name:"Aningapara", image:"Aningapara"},
               {id: 4, name:"Yucca", image:"Yucca"},
