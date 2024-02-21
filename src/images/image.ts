@@ -1,3 +1,4 @@
 export default { 
-    home: require("./home.png") 
+    home: require("./home.png"),
+    Plants: require("./Aningapara.png")
 }

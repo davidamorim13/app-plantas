@@ -43,14 +43,12 @@ export default function Plants() {
               </TouchableOpacity>
             )}
             data={[
-              {id: 1, name:"Imbé", image:},
-              {id: 2, name:"Peperomia"},
-              {id: 3, name:"Aningapara"},
-              {id: 4, name:"Yucca"},
-              {id: 5, name:"Peperomia"},
-              {id: 6, name:"Aningapara"},
-              {id: 7, name:"Yucca"},
-              {id: 8, name:"Yucca"},
+              {id: 1, name:"Imbé", image:"Imbé"},
+              {id: 2, name:"Peperomia", image:"Peperomia"},
+              {id: 3, name:"Aningapara", image:"Aningapara"},
+              {id: 4, name:"Yucca", image:"Yucca"},
+              {id: 5, name:"planta04", image:"planta04"},
+              {id: 6, name:"planta05", image:"planta05"},
             ]}
         />
       </View>
