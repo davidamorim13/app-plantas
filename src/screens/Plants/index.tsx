@@ -59,6 +59,7 @@ export default function Plants() {
     container: {
         flex: 1,
         padding: 14,
+        backgroundColor: "#FFFFFF",
     },
     boxtitle: {
       marginVertical: 12,

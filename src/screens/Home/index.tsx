@@ -12,7 +12,7 @@ export default function Home() {
       <Text style={styles.title}> Gerencie {"\n"} suas plantas {"\n"} de  forma fácil </Text>
       <Image style={styles.image} source={images.home} resizeMethod='resize' resizeMode='cover' />
       <Text style={styles.subtitle}>Não esqueça mais de regar suas {"\n"} plantas. Nós cuidamos de lembrar você {"\n"} sempre que precisar.</Text>
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Plants")}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("TabBottom")}>
         <Text style={styles.subtitlebutton}> {"\>"} </Text>
       </TouchableOpacity>
     </View>
