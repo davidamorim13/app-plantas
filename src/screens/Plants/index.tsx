@@ -45,11 +45,11 @@ export default function Plants() {
             )}
             data={[
               {id: 1, name:"Imbé", image: images.Imbe},
-              {id: 2, name:"Peperomia", image:"Peperomia"},
-              {id: 3, name:"Aningapara", image:"Aningapara"},
-              {id: 4, name:"Yucca", image:"Yucca"},
-              {id: 5, name:"planta04", image:"planta04"},
-              {id: 6, name:"planta05", image:"planta05"},
+              {id: 2, name:"Peperomia", image: images.Peperomia},
+              {id: 3, name:"Aningapara", image: images.Aningapara},
+              {id: 4, name:"Yucca", image: images. Yucca},
+              {id: 5, name:"espada", image: images.espada},
+              {id: 6, name:"planta05", image: images.planta05},
             ]}
         />
       </View>

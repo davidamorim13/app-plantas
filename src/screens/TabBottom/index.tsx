@@ -23,6 +23,6 @@ export default function TabBottom () {
             <Tab.Screen name="NewPlant" component={NewPlant}/>
             <Tab.Screen name="Plants" component={Plants}/>
         </Tab.Navigator>
-
+        
     )
 }
