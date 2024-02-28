@@ -17,11 +17,13 @@ export default function TabBottom () {
                 }
                 if(route.name === "Plants")
                     iconName="leaf-outline"
-              return <Ionicons name={iconName} size={24} color={"green"}/>
+              return <Ionicons name={iconName} size={24} color={color}/>
             },
+            tabBarActiveTintColor:"#32B768",
+            tabBarInactiveTintColor:"#333",
           })}>
-            <Tab.Screen name="NewPlant" component={NewPlant}/>
-            <Tab.Screen name="Plants" component={Plants}/>
+            <Tab.Screen name="NewPlant" component={NewPlant} options={{headerShown:false}}/>
+            <Tab.Screen name="Plants" component={Plants} options={{headerShown:false}}/>
         </Tab.Navigator>
         
     )

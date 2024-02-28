@@ -39,7 +39,7 @@ export default function Plants() {
             showsVerticalScrollIndicator={false}
             renderItem={({item}) => (
               <TouchableOpacity style={styles.buttonplant}>
-                <Image source={item.image}/>
+                <Image source={item.image} style={styles.image} resizeMethod="resize" resizeMode="contain"/>
                 <Text>{item.name}</Text>
               </TouchableOpacity>
             )}
@@ -109,7 +109,10 @@ export default function Plants() {
       alignItems: "center",
       justifyContent: "flex-end",
       padding: 12,
-
     },
+    image: {
+      width:"75%",
+      
+    }
 
   })
